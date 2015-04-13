@@ -52,18 +52,44 @@ img#me05 {top: 43px;left: 36px;}
 </div>
 
 <div class="slide">
-<h1>The workflow</h1>
+<h1>Workflow outline</h1>
 <p>A central repository is the communication hub for all developers. This guide assumes the central repository has been set up.</p>
 </div>
 
 <div class="slide">
 <h1>Client side setup</h1>
-<p>Download a Git Client.</p>
-<p>Recommended tool for Windows is Github for windows <a href="https://windows.github.com/" target="_blank"> https://windows.github.com/</a></p>
+<p>First download a Git Client. Recommended tools for Windows are</p> 
 <ul>
-<li>1.Clone repo</li>
-<li>2. ...</li>
-</ul>
+<li>Github for Windows <a href="https://windows.github.com/" target="_blank"> https://windows.github.com/</a></li>
+<li>SourceTree <a href="http://www.sourcetreeapp.com/" target="_blank">http://www.sourcetreeapp.com/</a></li>
+<ul>
+</div>
+
+<div class="slide">
+<h1>Client side setup</h1>
+<p>
+GitHub for Windows has an excellent Windows native Powershell Git Shell
+<img src="images/posh-git.jpg"></img>
+</p> 
+<p>SourceTree is strong in visually representating repositories and has built-in Git flow support</p> 
+</div>
+
+<div class="slide">
+<h1>Client side setup</h1>
+<p>
+Configure name and email on first time setup.
+<code>&gt git config --global user.name "Your Name"</code>
+<code>&gt git config --global user.email "your_email@whatever.com"</code>
+</p>
+<p>
+Setup line ending preferences. For Unix/Mac:
+<code>&gt git config --global core.autocrlf input</code>
+<code>&gt git config --global core.safecrlf true</code>
+For Windows:
+<code>&gt git config --global core.autocrlf true</code>
+<code>&gt git config --global core.safecrlf true</code>
+</p>
+<p>Source:<a href="http://gitimmersion.com/lab_01.html" target="_blank">gitimmersion.com</a></p>
 </div>
 
 <div class="slide">

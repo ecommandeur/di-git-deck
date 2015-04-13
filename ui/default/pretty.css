@@ -88,6 +88,7 @@ img.incremental {visibility: hidden;}
 
 .slide code { background-color : #000;
     color: #FFF;
+    display: block;
 }
 
 /* diagnostics
